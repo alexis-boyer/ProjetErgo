@@ -16,8 +16,8 @@ Ce projet à pour but de créer une interface de site web la plus érgonomique p
 
  2. Organisation des fichiers
 
- les fichiers devont être créer directement dans les bons dossiers. Pour chaque page un et unique fichier HTML devra être créer dans le dossier et un et unique feuille de style ( CSS ) devra être créer dans le dossier CSS.
+ les fichiers devont être créer directement dans les bons dossiers. Pour chaque page un et unique fichier HTML devra être créer dans le dossier et un et unique feuille de style ( CSS ) devra être créer dans le dossier CSS. les fichiers CSS et HTML liés devont portés le même nom, seul l'éxtension devra être differente.
 
  3. Convention de syntax
 
- 
+(à remplir)
