@@ -1,25 +1,94 @@
+head{
+  margin: 0;
+}
+
+@font-face{
+  font-family: Comfortaa;
+  src: url(Fonts/comfortaa/Comfortaa-Regular.ttf?#iefix) format('truetype');
+}
+
+@font-face{
+  font-family: OpenSans;
+  src: url(Fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+.bandeau{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #a66a38;
+  overflow: hidden;
+}
+
+.bandeau a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Comfortaa;
+}
+
+/* Change the color of links on hover */
+.bandeau a:hover {
+  background-color: #80522c;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.bandeau a.active {
+  background-color: #593a20;
+  color: white;
+}
 
 body{
-  min-height: 100%;
-  background: rgb(131,58,180);
-  background: linear-gradient(145deg, rgba(131,58,180,1) 0%,
-  rgba(253,29,29,1) 55%, rgba(252,176,69,1) 100%) fixed;
+  background-color: #d29e73;
+  margin: 0;
 }
 
 h1{
-  color: white;
-  font-size: 800%;
-  text-align: center;
-  padding: 10% 0 0 0;
+  margin: 10px;
+  color: black;
+  font-family: Comfortaa;
 }
 
-h4{
-  font-size: 400%;
-  color: white;
-  text-align: center;
+h2{
+  color: black;
+  margin: 10px;
+  font-family: Comfortaa;
 }
 
 p{
-  color: white;
+  color: black;
+  margin: 10px;
+  font-family: OpenSans;
+}
+
+footer{
+  bottom: 0;
+  width: 100%;
+}
+
+.pied{
+  padding-left: 50%;
+}
+
+.lien{
+    background-color: #a66a38;
+    padding: 15px;
+}
+
+.pied a{
   text-align: center;
+  color: white;
+  padding: 15px 17px;
+  font-family: Comfortaa;
+}
+
+.contenu{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  padding: 10px;
 }
