@@ -1,0 +1,43 @@
+.reg{
+	width: 60%;
+	margin: auto;
+	background-color:rgba(0,0,0,0.1);
+
+
+
+
+}
+
+input{
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px white solid ;
+	margin: 15px;
+	background-color: transparent;
+	color: white;
+	width: 500px;
+	height: 30px;
+	font-size: 1.2em;
+	margin-left: 100px;
+
+}
+
+.valider{
+	background-color: maroon;
+	width:120px;
+	height:40px;
+	margin-left: 300px;
+	color: white;
+}
+body{
+	background-image: url(img.jpg);
+	background-repeat: repeat;
+	background-color:rgba(0,0,0,0.1);
+}
+h1{
+	color: black;
+	text-align: center;
+	padding: 10px;
+
+}
